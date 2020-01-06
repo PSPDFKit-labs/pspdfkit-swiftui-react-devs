@@ -16,8 +16,7 @@
 		8476675422A9A59F00993943 /* PSPDFKit in Resources */ = {isa = PBXBuildFile; fileRef = 8476675322A9A59F00993943 /* PSPDFKit */; };
 		8476675E22A9A5E600993943 /* PSPDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476675D22A9A5E600993943 /* PSPDFKitView.swift */; };
 		996C6618236662D0005C2894 /* PSPDFKit for Web.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 996C6617236662D0005C2894 /* PSPDFKit for Web.pdf */; };
-		996C661A236662F8005C2894 /* PDFState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C6619236662F8005C2894 /* PDFState.swift */; };
-		99C853A0237C418800178AB8 /* PSPDFKit 9 QuickStart Guide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 99C8539F237C418800178AB8 /* PSPDFKit 9 QuickStart Guide.pdf */; };
+		99C853A6237C720E00178AB8 /* PSPDFKit 9 QuickStart Guide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 99C853A5237C720E00178AB8 /* PSPDFKit 9 QuickStart Guide.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,8 +46,7 @@
 		8476675722A9A5AA00993943 /* PSPDFKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSPDFKitUI.framework; path = PSPDFKitSwiftUI/PSPDFKit/PSPDFKitUI.framework; sourceTree = "<group>"; };
 		8476675D22A9A5E600993943 /* PSPDFKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSPDFKitView.swift; sourceTree = "<group>"; };
 		996C6617236662D0005C2894 /* PSPDFKit for Web.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PSPDFKit for Web.pdf"; sourceTree = "<group>"; };
-		996C6619236662F8005C2894 /* PDFState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFState.swift; sourceTree = "<group>"; };
-		99C8539F237C418800178AB8 /* PSPDFKit 9 QuickStart Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PSPDFKit 9 QuickStart Guide.pdf"; sourceTree = "<group>"; };
+		99C853A5237C720E00178AB8 /* PSPDFKit 9 QuickStart Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PSPDFKit 9 QuickStart Guide.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +84,8 @@
 				8476674122A9A4BF00993943 /* SceneDelegate.swift */,
 				8476674322A9A4BF00993943 /* ContentView.swift */,
 				8476675D22A9A5E600993943 /* PSPDFKitView.swift */,
-				996C6619236662F8005C2894 /* PDFState.swift */,
-				99C8539F237C418800178AB8 /* PSPDFKit 9 QuickStart Guide.pdf */,
 				996C6617236662D0005C2894 /* PSPDFKit for Web.pdf */,
+				99C853A5237C720E00178AB8 /* PSPDFKit 9 QuickStart Guide.pdf */,
 				8476674522A9A4C100993943 /* Assets.xcassets */,
 				8476674A22A9A4C100993943 /* LaunchScreen.storyboard */,
 				8476674D22A9A4C100993943 /* Info.plist */,
@@ -178,7 +175,7 @@
 				8476675422A9A59F00993943 /* PSPDFKit in Resources */,
 				996C6618236662D0005C2894 /* PSPDFKit for Web.pdf in Resources */,
 				8476674922A9A4C100993943 /* Preview Assets.xcassets in Resources */,
-				99C853A0237C418800178AB8 /* PSPDFKit 9 QuickStart Guide.pdf in Resources */,
+				99C853A6237C720E00178AB8 /* PSPDFKit 9 QuickStart Guide.pdf in Resources */,
 				8476674622A9A4C100993943 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,7 +190,6 @@
 				8476674022A9A4BF00993943 /* AppDelegate.swift in Sources */,
 				8476675E22A9A5E600993943 /* PSPDFKitView.swift in Sources */,
 				8476674222A9A4BF00993943 /* SceneDelegate.swift in Sources */,
-				996C661A236662F8005C2894 /* PDFState.swift in Sources */,
 				8476674422A9A4BF00993943 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,8 +336,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pspdfkit.PSPDFKitSwiftUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pspdfkit.PSPDFKitSwiftUIReactDevs;
+				PRODUCT_NAME = PSPDFKitSwiftUIReactDevs;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -361,8 +357,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pspdfkit.PSPDFKitSwiftUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pspdfkit.PSPDFKitSwiftUIReactDevs;
+				PRODUCT_NAME = PSPDFKitSwiftUIReactDevs;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

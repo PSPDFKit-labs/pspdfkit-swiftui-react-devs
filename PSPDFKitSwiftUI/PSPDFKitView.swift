@@ -42,7 +42,6 @@ struct PDFViewController: UIViewControllerRepresentable {
     }
     
     func updateUIViewController(_ uiViewController: UINavigationController, context: UIViewControllerRepresentableContext<PDFViewController>) {
-        let pdfController = uiViewController.viewControllers.first! as! PSPDFViewController
-        pdfController.document = PSPDFDocument(url: url)
+        // update view
     }
 }
