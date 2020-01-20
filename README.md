@@ -1,4 +1,4 @@
-# PSPDFKit Swift UI
+# PSPDFKit Swift UI for React Developers Example Project
 
 ## Requirements
 
